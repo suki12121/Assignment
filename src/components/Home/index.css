@@ -1,0 +1,231 @@
+.nav-bg {
+  width: 1440px;
+  height: 56px;
+  display: flex;
+  flex-direction: row;
+  padding: 30px;
+  padding-bottom: 0px;
+  justify-content: space-between;
+}
+
+.nav-heading {
+  background-color: white;
+  color: black;
+  border-color: white;
+  box-shadow: none;
+  font-size: 20px;
+  padding-left: 150px;
+  outline: none;
+  height: 30px;
+}
+
+.nav-bg2 {
+  display: flex;
+  flex-direction: row;
+}
+
+.nav-heading1 {
+  background-color: white;
+  color: black;
+  border-color: white;
+  box-shadow: none;
+  font-size: 20px;
+  height: 30px;
+  outline: none;
+  padding-left: 50px;
+}
+
+.heading-bg {
+  padding-left: 150px;
+  width: 486px;
+  height: 408px;
+}
+
+.second-bg {
+  padding: 30px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.passage {
+  color: yellow;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.heading {
+  font-size: 50px;
+}
+
+.passage1 {
+  font-size: 20px;
+  color: grey;
+}
+
+.button1 {
+  color: black;
+  background-color: yellow;
+  border-radius: 5px;
+  border-color: yellow;
+  width: 100px;
+  height: 30px;
+}
+
+.button2 {
+  color: black;
+  border-radius: 5px;
+  width: 100px;
+  height: 30px;
+  margin-left: 50px;
+}
+.image-bg {
+  width: 600px;
+  height: 489px;
+}
+
+.adding-project-bg {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px;
+  flex-direction: column;
+}
+
+.input-label {
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+.label {
+  width: 400px;
+  height: 30px;
+  margin-top: 10px;
+  border-radius: 5px;
+}
+
+.label1 {
+  width: 400px;
+  height: 150px;
+  margin-top: 10px;
+  border-radius: 7px;
+}
+
+@media all and (max-width: 801px) {
+  .nav-bg {
+    width: 800px;
+    height: 46px;
+    display: flex;
+    flex-direction: row;
+    padding: 30px;
+    padding-bottom: 0px;
+    justify-content: space-between;
+  }
+
+  .nav-heading {
+    background-color: white;
+    color: black;
+    border-color: white;
+    box-shadow: none;
+    font-size: 20px;
+    padding-left: 100px;
+    outline: none;
+    height: 30px;
+  }
+
+  .nav-bg2 {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .nav-heading1 {
+    background-color: white;
+    color: black;
+    border-color: white;
+    box-shadow: none;
+    font-size: 20px;
+    height: 30px;
+    outline: none;
+    padding-left: 50px;
+  }
+
+  .heading-bg {
+    padding-left: 100px;
+    width: 486px;
+    height: 408px;
+  }
+
+  .second-bg {
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  .passage {
+    color: yellow;
+    font-size: 20px;
+    font-weight: bold;
+  }
+
+  .heading {
+    font-size: 50px;
+  }
+
+  .passage1 {
+    font-size: 20px;
+    color: grey;
+  }
+
+  .button1 {
+    color: black;
+    background-color: yellow;
+    border-radius: 5px;
+    border-color: yellow;
+    width: 100px;
+    height: 30px;
+  }
+
+  .button2 {
+    color: black;
+    border-radius: 5px;
+    width: 100px;
+    height: 30px;
+    margin-left: 50px;
+  }
+  .image-bg {
+    width: 600px;
+    height: 489px;
+    padding-left: 100px;
+  }
+
+  .adding-project-bg {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+    flex-direction: column;
+    padding-left: 200px;
+  }
+
+  .input-label {
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .label {
+    width: 400px;
+    height: 30px;
+    margin-top: 10px;
+    border-radius: 5px;
+  }
+
+  .label1 {
+    width: 400px;
+    height: 150px;
+    margin-top: 10px;
+    border-radius: 7px;
+  }
+}
